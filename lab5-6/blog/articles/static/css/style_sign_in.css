@@ -1,0 +1,64 @@
+.center_block{
+    margin: 50px auto;
+    padding: 40px 30px 30px 30px;
+    width: 600px;
+    height: 400px;
+}
+
+.sign_in_logo{
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.image_sign_in{
+    width: 200px;
+    height: 200px;
+    padding-bottom: 64px;
+}
+
+.input_email, .input_password, .authorization_block input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 18px;
+    padding: 8px 12px 8px 40px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    font-family: Tahoma, Arial, blood;
+}
+
+label{
+    padding-bottom: 8px;
+    display: block;
+}
+
+.authorization_block{
+    background-color: #16647d;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.button_sign_in{
+    display: block;
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 8px 12px 8px 12px;
+    border-radius: 8px;
+    background-color: #15c2ac;
+    border: none;
+}
+
+ul.errorlist {
+    display: none;
+}
+
+ul.errorlist + p.error-message {
+    color: red !important;
+}
+
+
+.error-message {
+    color: #15c2ac;
+    font-weight: bold;
+}
